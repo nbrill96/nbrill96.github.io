@@ -1,7 +1,13 @@
 body {
-	background-color: pink;
+	background-color: rgb(162,165,255);
+	color: rgb(37,38,59);
 }
+h1 {
 
-h1, p {
-	color: black;
+}
+p{
+
+}
+#slogan {
+
 }
