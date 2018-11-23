@@ -1,3 +1,6 @@
+body{
+	margin: 5;
+}
 h1 {
 
 	font-family: AntiqueOliNorDReg, sans-serif; 
@@ -20,7 +23,7 @@ p{
 }
 
 h3{
-	font-family: helvetica, sans-serif; 
+	font-family: proxima nova, sans-serif; 
 	font-size: 20px;
 	color: #73D2ff;
 	line-height: 1.0;
