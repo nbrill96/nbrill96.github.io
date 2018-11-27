@@ -1,0 +1,40 @@
+body{
+	margin: 5;
+	background: url("images/IMG_0044.jpg")
+}
+h1 {
+
+	font-family: AntiqueOliNorDReg, sans-serif; 
+	font-size: 60px;
+	color: #222222;
+	line-height: 1.3;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p{
+
+	font-family: proxima nova, sans-serif; 
+	font-size: 35px;
+	color: #222222;
+	line-height: 1.0;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h3{
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #73D2ff;
+	line-height: 1.0;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-align: 
+}
+
+img
+}
+
+#slogan{
+}
