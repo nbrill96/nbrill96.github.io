@@ -12,6 +12,10 @@ nav{
 	background-color: #E8C675
 	border: 1px black solid;
 	padding: 20px; 
+  text-align: center;
+  text-transform: uppercase;
+  font-family: AntiqueOliNorDReg, sans-serif;
+  word-spacing: 1em;
 }
 footer{
 	background-color: #FF957E
@@ -26,21 +30,42 @@ div{
 h1 {
 
 	font-family: AntiqueOliNorDReg, sans-serif; 
-	font-size: 60px;
-	color: #222222;
+	font-size: 50px;
+	color: #223333;
 	line-height: 1.3;
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: center;
 }
+#logo { 
+  font-family: proxima nova, sans-serif;
+  font-size:20px;
+  line-height: .4em;
+  width:15px;
+}
+
+  
+h2 {
+
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #000000;
+	line-height: .3;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+  padding: 1px; 
+}
 
 p{
 
 	font-family: proxima nova, sans-serif; 
-	font-size: 35px;
+	font-size: 20px;
 	color: #222222;
 	line-height: 1.0;
 	font-weight: lighter;
+  padding: 10px 380px 15px 380px; 
+  width: 570px;
 	text-align: center;
 }
 
@@ -54,3 +79,7 @@ h3{
 	text-align: 
 }
 
+footer {
+  font-family: AntiqueOliNorDReg, sans-serif;
+  font-size: 15px;
+}
