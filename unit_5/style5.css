@@ -1,0 +1,56 @@
+body{
+	margin: 5;
+	background: url("../images/IMG_0044.JPG");
+	background-size:cover;
+}
+header{
+	background-color: #FFED74
+	border: 1px black solid;
+	padding: 20px; 
+}
+nav{
+	background-color: #E8C675
+	border: 1px black solid;
+	padding: 20px; 
+}
+footer{
+	background-color: #FF957E
+	border: 1px black solid;
+	padding: 20px; 
+}
+div{
+	background-color: #FFE2B8
+	border: 1px black solid;
+	padding: 20px; 
+}
+h1 {
+
+	font-family: AntiqueOliNorDReg, sans-serif; 
+	font-size: 60px;
+	color: #222222;
+	line-height: 1.3;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p{
+
+	font-family: proxima nova, sans-serif; 
+	font-size: 35px;
+	color: #222222;
+	line-height: 1.0;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h3{
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #73D2ff;
+	line-height: 1.0;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-align: 
+}
+
