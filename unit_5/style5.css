@@ -14,16 +14,12 @@ nav{
 	background-color: #E8C675;
 	border: 1px black solid;
 	padding: 20px; 
-  text-align: center;
-  text-transform: uppercase;
-  font-family: AntiqueOliNorDReg, sans-serif;
-  word-spacing: 1em;
+  	text-align: center;
+  	text-transform: uppercase;
+  	font-family: AntiqueOliNorDReg, sans-serif;
+  	word-spacing: 1em;
 }
-footer{
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px; 
-}
+
 #left{
 	background-color: #E582A2;
 	border: 1px black solid;
@@ -31,13 +27,15 @@ footer{
 	float: left;
 	width: 30%;
 }
-.clearfix:after{
+.clearfix:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
-	content: "";
+	content: " ";
+	clear:both;
 	height: 0;
 }
+
 a {
 	text-decoration: none;
 }
@@ -47,7 +45,7 @@ a:hoover {
 h1 {
 
 	font-family: AntiqueOliNorDReg, sans-serif; 
-	font-size: 50px;
+	font-size: 20px;
 	color: #223333;
 	line-height: 1.3;
 	font-weight: normal;
@@ -55,7 +53,7 @@ h1 {
 	text-align: center;
 }
 
-  
+
 h2 {
 
 	font-family: proxima nova, sans-serif; 
@@ -65,8 +63,18 @@ h2 {
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: center;
-  padding: 1px; 
+  	padding: 1px; 
 }
+#blurb{ 
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #222222;
+	line-height: 1.0;
+	font-weight: lighter;
+	border-right-width: : 40em;
+	border-left-width: 40em;
+	text-align: center;
+ }
 
 p{
 
@@ -75,8 +83,7 @@ p{
 	color: #222222;
 	line-height: 1.0;
 	font-weight: lighter;
-  padding: 10px 380px 15px 380px; 
-  width: 570px;
+  	width: 570px;
 	text-align: center;
 }
 
@@ -87,10 +94,38 @@ h3{
 	line-height: 1.0;
 	font-weight: lighter;
 	text-transform: uppercase;
-	text-align: 
+	text-align: center; 
 }
 
 footer {
   font-family: AntiqueOliNorDReg, sans-serif;
   font-size: 15px;
+}
+#info {
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #73D2ff;
+	line-height: 1.0;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-align: left;
+}
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 46%;
+}
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 46%;
 }
