@@ -1,0 +1,135 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+  font-family: myFirstFont;
+  src: url(AntiqueOliNorDReg.ttf);
+}
+#section_main_image{
+	padding-bottom: 500px;
+	padding-top: 500px;
+	background-image: url("IMG_0044.JPG");
+	background-size:cover;
+}
+
+/*main{
+	background-color: #BDB19B;
+}*/
+
+nav{
+	background-color: #7F7869;
+	padding: 0px 300px 50px 300px;
+	text-align: left;
+  	text-transform: uppercase;
+  	font-family: AntiqueOliNorDReg, sans-serif;
+  	word-spacing: 1em;
+}
+
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear:both;
+	height: 0;
+}
+
+a {
+	text-decoration: none;
+}
+a:hoover {
+	background-color: #FF6C35;
+} 
+h1 {
+
+	font-family: AntiqueOliNorDReg, sans-serif; 
+	font-size: 20px;
+	color: #223333;
+	line-height: 1.3;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+h2 {
+
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #000000;
+	line-height: .3;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+  	padding: 1px; 
+}
+#blurb{ 
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #222222;
+	line-height: 1.0;
+	font-weight: lighter;
+	border-right-width: : 40em;
+	border-left-width: 40em;
+	text-align: center;
+ }
+ #intro{
+
+ }
+
+p{
+
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #222222;
+	line-height: 1.0;
+	font-weight: lighter;
+  	width: 570px;
+	text-align: center;
+}
+
+h3{
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #73D2ff;
+	line-height: 1.0;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-align: center; 
+}
+
+footer {
+	border-sizing: border-box;
+	border: 1px solid black;
+	color: #7F7869;
+	padding-top: 200px;
+  	font-family: AntiqueOliNorDReg, sans-serif;
+  	font-size: 15px;
+}
+#info {
+	font-family: proxima nova, sans-serif; 
+	font-size: 20px;
+	color: #73D2ff;
+	line-height: 1.0;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+#two_column {
+	padding-bottom: 50px;
+}
+#left {
+	padding: 20px;
+	float: left;
+	width: 46%;
+}
+#right {
+	padding: 20px;
+	float: right;
+	width: 46%;
+}
