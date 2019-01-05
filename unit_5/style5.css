@@ -111,19 +111,19 @@ footer {
 	text-align: left;
 }
 #two_column {
-	background-color: #FFB7CF;
+	background-color: #3C657F;
 	border: 1px black solid;
 	padding: 20px;
 }
 #left {
-	background-color: #E582A2;
+	background-color: #BAEBFF;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 46%;
 }
 #right {
-	background-color: #E55B88;
+	background-color: #BAEBFF;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
