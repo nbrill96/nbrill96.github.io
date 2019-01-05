@@ -1,31 +1,33 @@
 
-#css reset before font import
-body{
-	margin: 5;
-	background-image: url("IMG/IMG_0044.JPG");
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+  font-family: myFirstFont;
+  src: url(AntiqueOliNorDReg.ttf);
+}
+#section_main_image{
+	padding-bottom: 500px;
+	padding-top: 500px;
+	background-image: url("IMG_0044.JPG");
 	background-size:cover;
 }
-header{
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px; 
-}
+
+/*main{
+	background-color: #BDB19B;
+}*/
+
 nav{
-	background-color: #E8C675;
-	border: 1px black solid;
-	padding: 20px; 
-  	text-align: center;
+	background-color: #7F7869;
+	padding: 0px 300px 50px 300px;
+	text-align: left;
   	text-transform: uppercase;
   	font-family: AntiqueOliNorDReg, sans-serif;
   	word-spacing: 1em;
 }
 
-#left{
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -75,6 +77,9 @@ h2 {
 	border-left-width: 40em;
 	text-align: center;
  }
+ #intro{
+
+ }
 
 p{
 
@@ -98,8 +103,12 @@ h3{
 }
 
 footer {
-  font-family: AntiqueOliNorDReg, sans-serif;
-  font-size: 15px;
+	border-sizing: border-box;
+	border: 1px solid black;
+	color: #7F7869;
+	padding-top: 200px;
+  	font-family: AntiqueOliNorDReg, sans-serif;
+  	font-size: 15px;
 }
 #info {
 	font-family: proxima nova, sans-serif; 
@@ -110,21 +119,16 @@ footer {
 	text-transform: uppercase;
 	text-align: left;
 }
+
 #two_column {
-	background-color: #3C657F;
-	border: 1px black solid;
-	padding: 20px;
+	padding-bottom: 50px;
 }
 #left {
-	background-color: #BAEBFF;
-	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 46%;
 }
 #right {
-	background-color: #BAEBFF;
-	border: 1px black solid;
 	padding: 20px;
 	float: right;
 	width: 46%;
