@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  h1{text-align: center;
+  font-family: Trebuchet MS;
+        background: linear-gradient(
+            to right, #c2d6cc, #c2c7d6,
+            	#d1c2d6, #c7d6c2);
+  color};
+  h2 {font-size: 12px;};
+  
+  div{text-align: center;
+  font-family: Trebuchet MS;
+  }
+  
+  p{ font-size:13px;
+     text-align: center;}
+  body {
+            background: rgb(0, 0, 0);
+            text-align: center;
+            margin: auto;
+        /* height: 100%;
+        display: grid */
+        }
+
+
+.flip-card {
+  background-color: white;
+  width: 375px;
+  height: 450px; 
+  perspective: 1000px;
+  text-align: center;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 375px;
+  height: 450px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  /* width: 100%;
+  height: 100%; */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border: 3px solid;
+  border-color: #c2d6c7;
+  
+}
+
+.flip-card-back {
+  background-color: "white";
+  color: #000000;
+  
+  font-color: #ffffff;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+
+<h1 style = "color: black;font-family: Trebuchet MS">What does it mean to have a body in Virtual Reality?</h1>
+  
+<p>
+ <div id = "div1" class="flip-card" style = "width: 380px; float: left ; height: 450px; padding: 3px;">
+    <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Edmund-Husserl.jpg" alt="Avatar" style="width:380px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size:18px;"> Edmund Husserl </h1> 
+      <h2 style="font-size:12px;"> (1859—1938) </h2>
+      <p >German Philosopher known as the "father" of Phenomenology</p> 
+      <p> Husserl's established phenomenology as a way of describing events and things without emploring the metaphysical and theoretical speculations. His idea of Phenomenological reduction intends to make observations on objects using the conscience to set perceptions.</p>
+    </div>
+  </div>
+</div>
+
+  
+
+<div id = "div2" class="flip-card" style = "width: 380px; float: left; height: 450px; padding: 3px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Heidi.jpg" alt="Avatar" style="width:380px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size:18px;">Martin Heidegger</h1>
+      <h2 style="font-size:12px;"> (1889-1976) </h2>
+      <p>German philosopher who explored exestentialism and phenomenology ontology: the study of being</p> 
+      <p>Heidegger wanted to understand conscienceness. He believed that perceiving was something done with the sense and therefore we build our perceptions based off sense to shape the conscience. He also enforced the idea that technology is an extension of ourselves and we use it to fulfill those concerns.</p>
+    </div>
+  </div>
+</div>
+</p>
+
+<p>
+  <div id = "div3" class="flip-card" style = "width: 380px; float: left; height: 450px; padding: 3px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Jean_Baudrillard.jpg" alt="Avatar" style="width:380px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style = "font-size:18px;">Jean Baudrillard</h1> 
+      <h2 style="font-size:12px;"> (1929) </h2>
+      <p>French philosopher and cultural theorist. He is best known for his theory on the system of objects and how they operate. But we will be focusing on his concepts and analysis of simulation and hyperreality. </p> 
+      <p>Baudrillard's concept of hyperreality is linked to his idea of Simulacrum, which he defines as something which replaces reality with its representations. He observes that the contemporary world is a simulacrum, where reality has been replaced by false images to the extent that one cannot tell the difference between the real and the unreal. i.e. most events are not real but rather represented by the media.</p>
+    </div>
+  </div>
+</div>
+  
+<div id = "div4" class="flip-card"style = "width: 380px; float: left; height: 450px; padding: 3px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Don_Ihde.jpg" alt="Avatar"   style="width:380px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size:18px;">Don Ihde</h1>
+      <h2 style="font-size:12px;"> (1934) </h2>
+      <p>Don Ihde is an American philosopher who uses the theory of phenomenology to analyze technology and the relationship between humans and technology.</p> 
+      <p>Don Ihde toggles with the idea that technologies mediate between us and the world and alter our relation to the world. He brings up this idea of intentionality, where tools have specific kind of intention that allows one to perceive differently while in use.While in use, each tool brings forth a different kind of stability as we do not move but the world around us does.</p>
+    </div>
+  </div>
+</div>
+</p>
+  
+<p>
+<div id = "div5" class="flip-card"style = "width: 380px; float: left; height: 450px; padding: 3px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pauldaurish.jpg" alt="Avatar"   style="width:380px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size:18px;">Paul Dourish</h1> 
+      <h2 style="font-size:12px;"> (1966) </h2>
+      <p>Paul Dourish is Scotish computer scientist who studies the intersection of computer science and social science. Paul Dourish discusses the idea of "embodied interaction", which aims to analyze the design of user interfaces and its interactive experiences.</p> 
+      <p>Dourish inteprets "embodiment" as the way physical and social phenomena reveals itself in real time and real space as a part of the world in which we are in. The idea of "embodiment" is rooted in phenomenology which refutes the idea that the mind and body are seperate. With this we can analyze our experiences as embodied actors interacting in the world. Dourish argues that users communicate meaning through their interactions with the systems being used.</p>
+    </div>
+  </div>
+</div>
+  
+<div id = "div6" class="flip-card"style = "width: 380px; float: left; height: 450px; padding: 3px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Mezinger.jpg" alt="Avatar"   style="width:380px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size:18px;">Thomas Metzinger</h1> 
+      <h2 style="font-size:12px;"> (1958) </h2>
+      <p>Thomas Metzinger is a german philosopher of mind and cognitive science. He dives into the concept that your body is part of your internal mental model. </p> 
+      <p>Metzinger discusses the idea of self model, which touches upon body representation, ownership of your body, and how we provide it context. He believes we live inside a model of the external as well as inside models of our own bodies. The "self models" don't always reflect reality and they can be adjusted in illogical ways and easily manipulated. i.e. they can portray a self that exists outside of the body, bringing us to the concept of "virtual embodiment".</p>
+    </div>
+  </div>
+</div>
+</p> 
+
+<div id = "div7" class="flip-card"style = "width: 380px; float: left; height: 450px; padding: 3px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="bodyschema.jpg" alt="Avatar"   style="width:380px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size:18px;">Body-Schema and Body Image</h1> 
+      <h2 style="font-size:12px;"> "Body-Schema" refers to the nature of our bodies, our knowdledge of our general bodies, and our perception of our bodies, in regards to spatiality. Body image is specific to the visual sense and suggests we make interpretations on the apperance of our bodies consciously. </h2>
+      <p>The French philosopher Merleau-Ponty describes the body schema as somthing that operates below the level of conscience awareness while still responding to a given spatial situation. This suggests that the body has the ability to respond and act in a particular situation through the use of the senses, which includes adapting certain habits to fit the state it's in. The body-schema is what allows us to cope with events that occur in our world.</p> 
+      <p>This suggests that the body is a medium for us to engage and connect with the space we are in, which then forms/shapes our perceptions. With this notion, space is not the physical setting but rather the external experience we are surrounded by. We cannot seperate ourselves with the perception of ourselves because perception is the background of our experiences.</p>
+    </div>
+  </div>
+</div>
+  
+
+  
+<div id = "div8" class="flip-card"style = "width: 380px; float: left; height: 450px; padding: 3px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="techmed.jpg" alt="Avatar"   style="width:380px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size:18px;">Technological Mediation</h1> 
+      <h2 style="font-size:12px;"> Technological mediation refers to the idea that technology, wedged in between us and the world, help to shape how we perceive the world, and in doing so help shape us.</h2>
+      <p>Within this idea of technological mediation, there are different levels of how we embody various technologies. For example, some technologies we might embed in our physical bodies, and thus we become "hybrid beings". Or we might have technologies that are emerged in our world that we interact with creating a "smart environment".</p> 
+      <p>Our mediation with technologies help shape our actions/practices or change how the world becomes meaningful to us, thus shaping our perceptions.</p>
+    </div>
+  </div>
+</div>
+  
+<div id = "div9" class="flip-card"style = "width: 380px; float: left; height: 510px; padding: 3px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="blueorred.jpg" alt="Avatar"   style="width:375px;height:510px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size:18px;">The Fourth Phase of the Hyperreal</h1> 
+      <h2 style="font-size:12px;"> Hyperreality is the inability to distinguish reality from a simulation of reality. In this state, what is real and what is not real are perfectly integrated and there are no distinctions of beginning or end of the worlds. In hyperreality one becomes less in tune with the physical world.</h2>
+      <p>According to Baudrillard, Western society has entered in the fourth phase of the hyperreal.In this stage of the hyperreal, simulation is more dominant than the physical. This is due to the age of production where products are sold even before they exist. This is in reference to the creation of virtual selves where representation of self is more prevelant than self. Baudrillard emphasizes representation through images and signs that are placeholders for "the Real" and that we accept the representation of what we are presented.</p> 
+      <p>Digital technology allows for the creation of images without any origin in the outside world. Through technological advances that allow us to construct the hyperreal world, we are complacently accepting a simulated world as real. </p>
+    </div>
+  </div>
+</div>
+  
+<div id = "div10" class= "flip-card"style = "width: 380px; float: left; height: 510px; padding: 3px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="embodiment.jpg" alt="Avatar"   style="width:375px;height:510px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size:18px;">Virtual Embodiment</h1> 
+      <h2 style="font-size:12px;"> Virtual Embodiment is the idea that the "self-model", which comes from the ownership of our body, can be easily manipulated through computer technology.</h2>
+      <p>Virtual embodiment is a concept that acknowledges, through the use of computer technology, we can convince ourselves that a virtual body is our own. In doing so, we are also convincing ourselves that we are infact in a different world and experiencing everything in a simulated body. Speicifcally with V.R. games, Thomas Metzinger often compares this to an "out-of-body" experience but does not equate the two. Rather than changing our perceptions of the world we are in, Metzinger argues that consciousness is transparent and this form of embodiment changes the relationship with our mind. Virtual embodiment poses the thought that our physical selves do not see our conscience because it is transparent, rather we see with it.</p> 
+      <p>For example, when one puts on a fully immersive headset for a V.R. game, our transparent avatars (our consciences) are taking ownership of the virtual body we are given and using it to experience the setting we are exploring. Our self model allows itself to be tricked into thinking this is our body, this is our world.</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
